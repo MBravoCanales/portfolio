@@ -20,7 +20,7 @@ header{
     flex-direction: row;
     justify-content: center;
     height: calc(100vh - 65px);
-    background-color: #888888;
+    background-color: #7e7c7c;
     color: white;
     /* padding-top: 10%; */
 }
@@ -38,7 +38,7 @@ header{
     justify-content: center;
     align-items: center;
     width: 40%;
-    background-color: #97e9f8;
+    background-color: #90e8f8;
 }
 .caja-presentacion{
     display: flex;
