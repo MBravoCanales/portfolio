@@ -1,28 +1,29 @@
 body{
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Roboto", "Arial","sans-serif";
 }
 header{
     height: 65px;
-    color: rgb(19, 18, 18);
+    color: #ffffff;
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding-left: 25px;
-    background-color: #dddddd;
+    background-color: #1f203a;
+    font-size: 1.5rem;
 }
 .cara{
     border-radius: 500px;
-    height: 200px;
+    height: 300px;
 }
 .uno{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: calc(100vh - 65px);
-    background-color: #7e7c7c;
+    height: calc(100vh - 10rem);
+    background-color: #f2f2f2;
     color: white;
-    /* padding-top: 10%; */
+    font-size: 2.4vi;
 }
 .caja-central{
     margin-top: 10%;
@@ -38,20 +39,24 @@ header{
     justify-content: center;
     align-items: center;
     width: 40%;
-    background-color: #93eafa;
+}
+
+.cara{
+    border-radius: 90px;
 }
 .caja-presentacion{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 60%;
-    background-color: #ffffff;
+    background-color: #f2f2f2;
     color: #000000;
     padding: 10px;
+    margin: 30px;
 }
 
 .dos{
-    background-color: #dddddd;
+    background-color: #ffffff;
     height: 700px;
     display: flex;
     flex-direction: column;
@@ -75,13 +80,13 @@ header{
 }
 
 .tres{
-    background-color: #303030;
+    background-color: #e5e5e5;
     height: 600px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
-    color: #F2F2F2;
+    color: #000000;
 }
 .proyectos{
     width: 60%;
@@ -91,7 +96,7 @@ header{
 .card{
     text-align: center;
     width: 30%;
-    border: solid #F2F2F2 1px;
+    border: solid #000000 1px;
     border-radius: 10px;
     padding: 10px;
 }
@@ -99,7 +104,7 @@ header{
     width: 100%;
 }
 .card a, footer a {
-    color: white;
+    color: rgb(2, 2, 2);
 }
 
 .red-social{
